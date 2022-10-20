@@ -109,3 +109,47 @@ td{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+@media  (max-width:320px) {
+    table{
+        font-size: 13px;
+    }
+}
+@media (max-width:375px){
+    table{
+        font-size: 15px;
+        display: flex;
+        margin-left: -37px;
+    }
+    h1{
+        font-size: 28px
+    }
+    tbody{
+        display: inline;
+        border-collapse: initial;
+    }
+    .conteudo{
+        margin-left: -3px;
+    }  
+}
+@media (max-width:768px)and(max-width:425px){
+    .conteudo{
+        margin-left: 110px;
+        margin-top: 1px;
+    }
+    .conteudo-texto{
+        margin-top: 10px;
+    }
+    .conteudo-img, img {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    table{
+        font-size: 12px;
+    }
+}
+@media (max-width:1024px){
+    .conteudo-img img {
+        margin-left: -15px;
+    }
+}
